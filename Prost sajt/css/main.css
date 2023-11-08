@@ -1,0 +1,161 @@
+
+/* ------------------Nav menu-------------------- */
+
+body {
+    background-color: #eee!important;
+}
+
+.container-fluid {
+    height: 60px;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+
+::selection{
+    background-color: #333;
+    color: #fff;
+}
+
+h1{
+    font-size: 100px!important;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    font-weight: 700!important;
+}
+
+nav ul li {
+    list-style: none;
+    border-right: 2px solid rgb(255,255,255);
+    line-height: 1.2;
+
+}
+
+ul li:last-child {
+    border-right: none!important;
+}
+
+a {
+    text-decoration: none!important;
+    color:#fff!important;
+    font-size: 25px;
+}
+
+.navbar{
+    align-items: center;
+    background-color: transparent!important;
+}
+
+
+/* -------------------End Nav menu------------------- */
+
+
+/* ---------------------Main----------------------- */
+
+
+.container-xl{
+    background-color: #fff!important;
+}
+
+.paragraph-text{
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 6px;
+    color: #333;
+}
+
+
+.paragraph-bottom{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+}
+
+.green-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 700;
+    color:#00CC66
+}
+
+.blue-text{
+    color:#6699CC;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+/* -----------------End Main---------------------- */
+
+
+/* ------------------Footer----------------------- */
+
+.footer-style{
+    border-top: 2px solid #333;
+}
+
+.footer-style p {
+    font-style: italic;
+}
+
+/* -----------------End Footer--------------------- */
+
+/* --------------- Helper class -------------------*/
+
+.background{
+    background-color: #333;
+    color: #fff;
+}
+
+.section-color{
+    background-color: #333;
+}
+
+.section-top{
+    border-bottom: 2px solid #333;
+}
+
+/* -----------------End Helper Classes-------------- */
+
+
+/* ---------------------Media----------------------- */
+
+@media (max-width: 767px) {
+    .paragraph-text {
+        font-size: 1rem;
+    }
+
+    a{
+        font-size: 1rem;
+    }
+
+    .paragraph-bottom{
+        font-size: 1rem;
+    }
+
+    .green-text{
+        font-size: 2.3rem;
+    }
+
+    .blue-text{
+        font-size: 2.0rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .paragraph-text {
+        font-size: 1.2rem;
+    }
+    .paragraph-bottom{
+        font-size: 1.2rem;
+    }
+ 
+}
+
+/* -------------------End Media--------------------- */
