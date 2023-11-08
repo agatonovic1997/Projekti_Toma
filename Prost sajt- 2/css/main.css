@@ -1,0 +1,159 @@
+
+/* -------------------- Root ------------------------- */
+
+:root{
+    --brown-color:#333;
+    --black-color:#000;
+    --white-color:#fff;
+    --orange-color:#ff7f00;
+}
+
+::selection{
+    background-color: var(--orange-color);
+    color: var(--brown-color);
+    
+}
+
+/* ------------------- End Root --------------------- */
+
+/* ------------------- Header --------------------- */
+
+.header-top{
+    background-color: var(--brown-color);
+    height: 80px;
+}
+
+ul li:last-child {
+    border-right: none!important;
+}
+
+
+ul li:first-child a {
+    color: var(--orange-color)!important;
+}
+
+a {
+    color: var(--white-color)!important;
+    text-decoration: none!important;
+}
+
+li{
+    list-style: none;
+    text-transform:uppercase;
+    line-height: 1.2;
+    border-right: 2px solid var(--white-color);
+}
+
+/* ------------------- End Header --------------------- */
+
+/* ---------------------Img section--------------------- */
+
+.panel-text{
+    background: rgba(255, 165, 0, 0.9);
+    text-shadow: 0 0 5px var(--black-color);
+    color: var(--white-color);
+    position: absolute;
+    right: 0px;
+    
+}
+
+/* ---------------------End Img section------------------ */
+
+/* ------------------------Main---------------------------*/
+
+.icon{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: var(--orange-color);
+    border: 10px solid var(--white-color);
+    object-fit: cover;
+    background-position: center center;
+    transform: rotate(10deg);
+    position: absolute;
+    right: 10px;
+    top:-55px;
+    
+}
+
+p{
+
+    text-shadow: 0 0 2px var(--brown-color);
+}
+
+span {
+    color: var(--black-color);
+    text-shadow: 0 0 15px var(--orange-color);
+}
+
+.background{
+    background-color: var(--brown-color);
+    color: var(--white-color);
+    border: 15px solid var(--white-color);
+    box-shadow: 0 0 8px var(--brown-color);
+    position: relative;
+}
+
+h3{
+    color: var(--orange-color);
+    font-weight:700!important;
+}
+
+.btn {
+    color:var(--orange-color)!important;
+    border: 1px solid var(--orange-color)!important;
+}
+
+.btn:hover{
+    background-color: var(--orange-color)!important;
+    color:var(--white-color)!important;
+}
+
+/* ----------------------End Main--------------------- */
+
+/*----------------------- Footer---------------------- */
+
+.background-footer{
+    background: linear-gradient(to bottom, var(--brown-color),rgba(0,0,0,0.6)100%, var(--white-color));
+    
+    color: #fff;
+    min-height: 160px;
+}
+
+.circle-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 10px solid var(--white-color);
+    margin: 0 5px;
+}
+
+/*--------------------- End Footer------------------- */
+
+
+
+/* ------------------Helper classes------------------ */
+
+.dice {
+    background-image:url(../img/bkg-pattern.png);
+    background-repeat: repeat;
+    box-shadow: 0 0 2px var(--brown-color);
+
+}
+
+.a-tag{
+    color:var(--orange-color)!important;
+    text-decoration: underline!important;
+}
+
+
+/* --------------------Media --------------------*/
+
+@media (max-width: 992px) {
+    li {
+        display: none!important;
+    }
+}
+
+/* -------------------End Media -----------------*/
+
